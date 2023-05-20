@@ -13,12 +13,12 @@ public class UserController {
     private final UserService userService;
 
     @GetMapping
-    public List<UserResponse> getAllUsers() {
+    public List<User> getAllUsers() {
         return userService.getAllUsers();
     }
 
     @GetMapping("/{login}")
-    public User getUserByLogin (@PathVariable String login) {
+    public UserResponse getUserByLogin (@PathVariable String login) {
         return userService.getUserByLogin(login);
     }
 
