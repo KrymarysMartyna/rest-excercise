@@ -15,11 +15,6 @@ import lombok.NoArgsConstructor;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long identifier;
     private String login;
-    private String name;
-    private String type;
-    private String avatarURL;
-    private String creationDate;
-    private int calculations;
+    private int requestCount;
 }

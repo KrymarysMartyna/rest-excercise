@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8e54f07-9a40-4170-9c14-2a46c9f280e4" name="Changes" comment="rest api draft">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/GitHubResponse.java" afterDir="false" />
+    <list default="true" id="b8e54f07-9a40-4170-9c14-2a46c9f280e4" name="Changes" comment="added getting response from GitHub API and returned with some manipulations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/UserRequest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +27,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Desktop/plants/plants/src/main/java/dev/martynakrymarys/plants/plant/plant/Plant.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/plants/plants/src/main/java/dev/martynakrymarys/plants/plant/plant/PlantController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/plants/plants/src/main/java/dev/martynakrymarys/plants/plant/plant/PlantNotFoundException.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/plants/plants/src/main/java/dev/martynakrymarys/plants/plant/plant/PlantRepository.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/plants/plants/src/main/java/dev/martynakrymarys/plants/plant/plant/PlantRequest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/plants/plants/src/main/java/dev/martynakrymarys/plants/plant/plant/PlantRequestMapper.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/plants/plants/src/main/java/dev/martynakrymarys/plants/plant/plant/PlantResponse.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/plants/plants/src/main/java/dev/martynakrymarys/plants/plant/plant/PlantService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Projekty/SpringBootProjekty/company-management/src/main/java/dev/martynakrymarys/companymanagement/company/Company.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Projekty/SpringBootProjekty/company-management/src/main/java/dev/martynakrymarys/companymanagement/company/CompanyController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Projekty/SpringBootProjekty/company-management/src/main/java/dev/martynakrymarys/companymanagement/company/CompanyRepository.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Projekty/SpringBootProjekty/company-management/src/main/java/dev/martynakrymarys/companymanagement/company/CompanyRequest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Projekty/SpringBootProjekty/company-management/src/main/java/dev/martynakrymarys/companymanagement/company/CompanyService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/restexcersise/RestExcersiseApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/GitHubResponse.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/User.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/UserController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/UserRepository.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/UserResponse.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/restexcersise/user/UserService.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,7 +62,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/programowanie/Java/rest-excercise",
+    "last_opened_file_path": "C:/Users/Krymka/Desktop/plants",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -110,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684442303721</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added getting response from GitHub API and returned with some manipulations">
+      <created>1684596173314</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684596173314</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +158,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="added application draft" />
     <MESSAGE value="rest api draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="rest api draft" />
+    <MESSAGE value="added getting response from GitHub API and returned with some manipulations" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getting response from GitHub API and returned with some manipulations" />
   </component>
 </project>
